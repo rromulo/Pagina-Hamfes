@@ -21,12 +21,12 @@
 
 .icons-social a{
     margin: 0 10px;
-    font-size: 15pt;
+    font-size: 18px;
     color: white;
 }
 .logo{
     font-family: 'Caesar Dressing';
-    font-size: 30pt;
+    font-size: 2.6em;
     color: #ff4800;
     float: left;
 }
@@ -44,7 +44,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #fa6000;
-    font-size: 13pt;
+    font-size: 18px;
     text-transform: uppercase;
 }
 /*******************************MENU MOBILE**********************************/
@@ -64,7 +64,7 @@ nav.mobile ul{
     position: absolute;
     z-index: 999;
     left: 0;
-    top: 76px;
+    top: 81px;
     background-color: rgba(0,0,0, 0.8);
     display: none;
 }
@@ -86,8 +86,8 @@ div.introduction{
     color: white;
 }
 .introduction h1{
-    font-size: 30pt;
-    padding-bottom: 30px;
+    font-size: 3em;
+    padding-bottom: 10px;
     font-weight: normal;
 }
 .introduction h1 span{
@@ -99,7 +99,7 @@ div.introduction{
 }
 .introduction p{
     text-align: justify;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 /**********************************************FIM SESSAO MAIN*****************************************/
 /*********************************************SESSAO projetos********************************************/
@@ -273,7 +273,10 @@ footer p{
         margin: 10px 0; 
         width: 100%;
     }
-    
+    div.introduction{
+        margin-top: 10px;
+    }
+}    
 @media screen and (max-width: 768px){
     .desktop{
         display:none
@@ -282,7 +285,9 @@ footer p{
         display: block;
     }
     div.introduction{
-        margin-top: 20px;
+        margin-top: 0px;
     }
-}
+    .btn-primary{
+        line-height: 35px;
+    }
 }
