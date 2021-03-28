@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Open Sans'
+}
+body,html{height: 100%;}
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+.center{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 2%;
+}
+.clear{clear: both;}
+.w50{
+    width: 50%;
+}
+.w100{
+    width: 100%;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.btn-primary{
+    width: 177px;
+    height: 40px;
+    background-color: rgb(64, 147, 255);
+    color: white;
+    font-size: 12pt;
+    font-weight: lighter;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+}
+.fa-check-square{
+    color: rgb(0, 140, 255);
+}
