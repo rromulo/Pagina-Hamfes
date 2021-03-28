@@ -281,5 +281,8 @@ footer p{
     .fa-bars{
         display: block;
     }
+    div.introduction{
+        margin-top: 20px;
+    }
 }
 }
