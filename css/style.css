@@ -274,7 +274,7 @@ footer p{
         width: 100%;
     }
     div.introduction{
-        margin-top: 10px;
+        margin-top: 60px;
     }
 }    
 @media screen and (max-width: 768px){
@@ -285,7 +285,7 @@ footer p{
         display: block;
     }
     div.introduction{
-        margin-top: 0px;
+        margin-top: 50px;
     }
     .btn-primary{
         line-height: 35px;
