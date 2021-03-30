@@ -171,6 +171,7 @@ section.sobre{
     min-height: 500px;
     margin-top: 20px;
     position: relative;
+    background-attachment: fixed;
 }
 .layer-sobre{
     width: 100%;
