@@ -171,7 +171,6 @@ section.sobre{
     min-height: 500px;
     margin-top: 20px;
     position: relative;
-    background-attachment: fixed;
 }
 .layer-sobre{
     width: 100%;
@@ -204,22 +203,17 @@ section.sobre{
 section.contato{
     width: 100%;
     padding: 50px 0;
-    margin: auto;
-}
-section.contato .center{
-    max-width: none;
 }
 .contato h2{
     text-align: center;
     color: #fa6000;
-    font-size: 2.2em;
+    font-size: 22pt;
 }
 section.contato form{
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
-
 form{
     text-align: center;
 }
@@ -256,43 +250,6 @@ form input[type=button]{
     width: 140px;
     background-color: rgb(195, 0, 255);
 }
-.equipe{
-    padding: 0 2%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-}
-.equipe > h2{
-    text-align: left;
-    padding-left: 2%;
-    padding-bottom: 20px;
-}
-.equipe-single{
-    box-shadow: 3px 3px 12px 2px black;
-    padding: 10px 2%;
-    min-height: 240px;
-    float: left;
-    margin:20px 2%;
-}
-.topo-usuario{
-    padding: 10px 2%;
-    border-bottom: 1px solid #777;
-}
-.box-avatar{
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background-image: url(../images/romulo.jpg);
-    background-size: 100% 100%;
-    background-position: center;
-}
-.info-usuario{
-    padding: 0 20px;
-    display:inline-block;
-}
-.descricao-usuario{
-    max-width: 250px;
-    padding: 10px 2%;
-}
 /*******************************************FIM SESSAO CONTATO******************************************/
 /*******************************************SESSAO FOOTER***********************************************/
 footer{
@@ -306,24 +263,6 @@ footer p{
     font-size: 1.2em;
 }
 /*********************************************FIM FOOTER************************************************/
-@media screen and (max-width: 1350px){
-    .w50{
-        width: 100%;
-    }
-    .equipe{
-        margin-top: 40px;
-    }
-    .equipe h2{
-        text-align: center;
-    }
-    .equipe-single{
-        width: 28%;
-    }
-    .descricao-usuario{
-        max-width: none;
-        text-align: center;
-    }
-}
 @media screen and (max-width: 960px){
     .projetos-single{
         width: 100%;
@@ -350,13 +289,5 @@ footer p{
     }
     .btn-primary{
         line-height: 35px;
-    }
-    .equipe{
-        margin: auto;
-    }
-    .equipe-single{
-        width: 70%;
-        margin: 15px auto;
-        float: none;
     }
 }
